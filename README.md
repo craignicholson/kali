@@ -64,7 +64,7 @@ xfce4.sh                      100%[=============================================
 
 ### Give permissions to the script and run the script
 
- '''bash
+ ```bash
  
 $chmod +x xfcet.sh
 $ sudo ./xfce4.sh
@@ -3451,7 +3451,7 @@ W: APT had planned for dpkg to do more than it reported back (1096 vs 2692).
 
  ### Start the desktop server
  
- '''bash
+ ```bash
  
  ~$ sudo /etc/init.d/xrdp start
 [sudo] password for acidburn:
