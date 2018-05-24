@@ -3461,3 +3461,25 @@ W: APT had planned for dpkg to do more than it reported back (1096 vs 2692).
  
  ```
  
+ ### Log Into with Remote Desktop Connection
+ 
+ Computer: 127.0.0.1:3309
+ 
+ Log into xkd with your Kali linux username
+ 
+ TODO: Add Screen Shots
+ 
+ ### Log out of RDP, upper RIGHT hand click kali username and log out... 
+ 
+ TODO: Add Screen Shots
+  
+ ### Stop the desktop server
+ 
+ ```bash
+ 
+acidburn@coldflame:~$ sudo /etc/init.d/xrdp stop
+[sudo] password for acidburn:
+[ ok ] Stopping Remote Desktop Protocol server: xrdp xrdp-sesman.
+acidburn@coldflame:~$
+
+```
