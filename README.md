@@ -3469,11 +3469,41 @@ W: APT had planned for dpkg to do more than it reported back (1096 vs 2692).
  
  TODO: Add Screen Shots
  
+ Launch Terminal inside the RDP Session
+ 
+ ```
+ 
+ $ sudo apt-get install htop
+ 
+ ```
+ ### start htop
+ 
+ ```
+ $ htop
+ ```
+ 
+ ### Go back to local win10 instance
+ in the kali console start htop...
+ 
+ $ htop
+ 
+ See it is already installed and you can see 2 instances of htop running as well.
+ stop htop instance in the RDP session (ctrl-c)
+ 
+ See the local instance now has one htop instance
+ 
+ 
+ 
+ 
  ### Log out of RDP, upper RIGHT hand click kali username and log out... 
  
  TODO: Add Screen Shots
   
- ### Stop the desktop server
+ ### Stop htop & the desktop server
+ 
+ctrl-c to stop htop
+
+then
  
  ```bash
  
